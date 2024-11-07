@@ -1,0 +1,19 @@
+CREATE DATABASE agenda_telefonica;
+use agenda_telefonica;
+
+CREATE TABLE agenda(
+id int primary key,
+nombre varchar(50),
+apellido varchar(50),
+telefono varchar(10),
+email varchar(50)
+);
+
+INSERT INTO agenda(id,nombre,apellido,telefono,email) 
+values (1,'Karen','Quinteros','0123654789','Karen@gmail.com');
+INSERT INTO agenda(id,nombre,apellido,telefono,email) 
+values (2,'CARLOS','Suarez','0123654589','CARLOS@gmail.com');
+INSERT INTO agenda(id,nombre,apellido,telefono,email) 
+values (3,'Marco','Guerra','0123674789','Marco@gmail.com');
+INSERT INTO agenda(id,nombre,apellido,telefono,email) 
+values (4,'Dean','Parra','0129654789','Dean@gmail.com');
